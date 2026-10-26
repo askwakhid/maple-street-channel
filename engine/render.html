@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; background: #000; }
+  #stage, #stage svg { display: block; }
+  #wrap { position: relative; }
+  /* paper grain, multiplied over every frame by the browser (cheaper than doing it in ffmpeg) */
+  #grain { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; background-size: 100% 100%; display: none; }
+</style>
+<script src="engine.js"></script>
+<script src="icons.js"></script>
+<script src="mascot.js"></script>
+<script src="sam.js"></script>
+<script src="chibi.js"></script>
+<script src="scenes.js"></script>
+<script src="scenes_ink.js"></script>
+</head>
+<body>
+<div id="wrap"><div id="stage"></div><div id="grain"></div></div>
+<script>
+  // data.js (written by pf.py) sets window.PF_DATA; its URL comes in ?data=
+  window.__ready = new Promise((resolve, reject) => {
+    const url = new URLSearchParams(location.search).get('data');
+    const s = document.createElement('script');
+    s.src = url;
+    s.onerror = () => reject(new Error('cannot load ' + url));
+    s.onload = async () => {
+      const D = window.PF_DATA;
+      for (const f of D.fonts) {
+        const ff = new FontFace(f.family, `url("${f.url}")`, { weight: f.weight || '300 700' });
+        document.fonts.add(await ff.load());
+      }
+      await document.fonts.ready;
+      initEngine(D);
+      if (D.grain && D.grain.url) {
+        const g = document.getElementById('grain');
+        g.style.backgroundImage = `url("${D.grain.url}")`;
+        g.style.opacity = D.grain.opacity;
+        g.style.display = 'block';
+        await new Promise((ok) => { const im = new Image(); im.onload = im.onerror = ok; im.src = D.grain.url; });
+      }
+      document.body.style.width = D.W + 'px';
+      document.body.style.height = D.H + 'px';
+      renderFrame(0);
+      resolve(true);
+    };
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>

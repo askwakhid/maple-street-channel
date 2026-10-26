@@ -1,0 +1,53 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#3A2A1A",
+  "skin": "#F6C9A8",
+  "capBg": "#FFF8EC",
+  "capInk": "#22253A",
+  "capDim": "#8A8DA0",
+  "sheetInk": "#22253A",
+  "gridLine": "#00000010",
+  "bg": "pastel",
+  "sky": [
+    "#FFD6E8",
+    "#FFF0F6"
+  ],
+  "ground": [
+    "#FFB3D1",
+    "#FF94BD",
+    "#F27AA8"
+  ],
+  "paper": "#FFFDF8",
+  "ink": "#3B1F3A",
+  "a": "#FF5D8F",
+  "b": "#56B6F7",
+  "c": "#FFC94D",
+  "d": "#4FD1A5",
+  "e": "#A77BFF",
+  "tape": "#A6E3FF",
+  "capHi": "#FFE066",
+  "sheet": "#56B6F7",
+  "sheetFold": "#3FA0E5",
+  "transition": "fold",
+  "music": "playful",
+  "tints": {
+    "alert": [
+      "#FFC2B8",
+      "#FFE3DD"
+    ],
+    "calm": [
+      "#D6ECFF",
+      "#F0F8FF"
+    ],
+    "happy": [
+      "#D7FFE9",
+      "#F0FFF6"
+    ],
+    "sad": [
+      "#E3DDF0",
+      "#F3F0F8"
+    ]
+  },
+  "name": "candy"
+}

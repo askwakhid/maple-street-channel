@@ -1,0 +1,271 @@
+{
+  "_help": "Maple Street English look, voices and YouTube settings. Keys explained in brand/README.md.",
+  "channel": "Maple Street English",
+  "handle": "@maplestreetenglish",
+  "initials": "MS",
+  "color": "#C2410C",
+  "color2": "#141414",
+  "theme": "maple",
+  "seed": 4127,
+  "language": "en",
+  "mascot": {
+    "name": "Mia",
+    "hoodie": "#0F766E",
+    "body": "#FFFFFF",
+    "fold": "#E9E2D3",
+    "limb": "#22253A",
+    "cheek": "#FF9AA2",
+    "scarf": "#0F766E"
+  },
+  "watermark": {
+    "enabled": true,
+    "move": "scene",
+    "hop_every": 6,
+    "position": "top-right",
+    "opacity": 0.92,
+    "size": 96,
+    "show_handle": true,
+    "subtitle": "on YouTube",
+    "ghost": {
+      "enabled": true,
+      "opacity": 0.08
+    },
+    "caption_tag": true
+  },
+  "outro": {
+    "cta": "See you next time on Maple Street!",
+    "button": "SUBSCRIBE",
+    "subscribed": "SUBSCRIBED"
+  },
+  "music": "auto",
+  "progress_bar": true,
+  "tagline": "everyday English, one street at a time",
+  "logo": {
+    "mark": "initials",
+    "ink": "#141414",
+    "accent": "#C2410C",
+    "accent_dark": "#9A3412",
+    "highlight": "#FFE45C",
+    "background": "#F6F1E7",
+    "split": 13
+  },
+  "voice": {
+    "provider": "voicebox",
+    "profile": "Maple Street English - Narrator",
+    "engine": "kokoro",
+    "preset_voice_id": "am_liam",
+    "language": "en",
+    "gap": 0.35,
+    "turn_gap": 0.55,
+    "segment_gap": 1.0,
+    "pause_segments": {
+      "REPEAT": 3.5
+    },
+    "seed": 7,
+    "pronounce": {},
+    "cast": {
+      "NARRATOR": {
+        "preset_voice_id": "am_liam",
+        "color": "#141414",
+        "label": false,
+        "default": true,
+        "profile": "Maple Street English - Narrator"
+      },
+      "MIA": {
+        "preset_voice_id": "af_heart",
+        "color": "#0F766E",
+        "look": {
+          "hair": "ponytail",
+          "hair_color": "#3B2A20",
+          "items": [
+            "backpack"
+          ],
+          "item_color": "#F59E0B"
+        }
+      },
+      "WALTER": {
+        "preset_voice_id": "am_michael",
+        "color": "#8B4513",
+        "look": {
+          "hair": "bald",
+          "hair_color": "#9CA3AF",
+          "items": [
+            "apron",
+            "flour"
+          ],
+          "scale": 1.05
+        }
+      },
+      "GRACE": {
+        "preset_voice_id": "af_bella",
+        "color": "#A16207",
+        "look": {
+          "hair": "bun",
+          "hair_color": "#3B2A20",
+          "items": [
+            "headphones"
+          ],
+          "item_color": "#141414",
+          "scale": 0.95
+        }
+      },
+      "LENA": {
+        "preset_voice_id": "af_sky",
+        "color": "#1D4ED8",
+        "look": {
+          "hair": "short",
+          "hair_color": "#141414",
+          "items": [
+            "coat",
+            "glasses"
+          ],
+          "item_color": "#1D4ED8"
+        }
+      },
+      "TOM": {
+        "preset_voice_id": "am_puck",
+        "color": "#B91C1C",
+        "look": {
+          "hair": "short",
+          "hair_color": "#6B4F3A",
+          "items": [
+            "cap"
+          ],
+          "item_color": "#B91C1C",
+          "scale": 1.05
+        }
+      },
+      "ROSA": {
+        "preset_voice_id": "af_nicole",
+        "color": "#15803D",
+        "look": {
+          "hair": "long",
+          "hair_color": "#141414",
+          "items": [
+            "scarf"
+          ],
+          "item_color": "#15803D"
+        }
+      },
+      "OMAR": {
+        "preset_voice_id": "am_adam",
+        "color": "#1E40AF",
+        "look": {
+          "hair": "short",
+          "hair_color": "#4B5563",
+          "items": [
+            "vest",
+            "pencil"
+          ]
+        }
+      },
+      "JUNE": {
+        "preset_voice_id": "af_jessica",
+        "color": "#7E22CE",
+        "look": {
+          "hair": "curly",
+          "hair_color": "#D1D5DB",
+          "items": [
+            "cardigan",
+            "glasses"
+          ],
+          "item_color": "#7E22CE",
+          "scale": 0.92
+        }
+      }
+    },
+    "slow_segments": {
+      "REPEAT": 0.8,
+      "STORY SLOW": 0.85
+    }
+  },
+  "youtube": {
+    "guide_language": "en",
+    "category": "Education",
+    "language": "English",
+    "audience": "No, it's not made for kids",
+    "altered_content": "No",
+    "remix": "Allow video and audio remixing",
+    "playlist_shorts": "Maple Street Shorts",
+    "playlist_long": "Maple Street Episodes",
+    "hashtags": [
+      "#learnenglish",
+      "#englishconversation",
+      "#esl"
+    ],
+    "tags": [
+      "learn english",
+      "english conversation",
+      "esl",
+      "maple street english"
+    ],
+    "footer": "Maple Street English: everyday English, one street at a time. New episode every week.",
+    "disclaimer": "Characters and places are fictional. Health tips in episodes are general, not medical advice.",
+    "schedule_local_times": [
+      "11:00",
+      "13:00"
+    ],
+    "audience_timezone": "America/New_York",
+    "my_timezone": "Asia/Jakarta",
+    "rules": [
+      "Tonton video sekali sampai habis dengan suara sebelum upload. Pastikan semua angka diucapkan benar.",
+      "Jangan pernah membeli views, subscriber, atau like, dan jangan ikut grup sub4sub.",
+      "Jangan menghapus lalu meng-upload ulang video karena views awal sedikit. Shorts sering naik setelah 1-3 hari.",
+      "Fakta dan angka harus sama dengan naskah dan deskripsi. Klaim soal uang atau kesehatan butuh sumber.",
+      "Video bersponsor wajib dicentang 'paid promotion' di YouTube.",
+      "Balas komentar-komentar pertama dalam satu jam pertama."
+    ]
+  },
+  "render": {
+    "resolution": "1080p"
+  },
+  "voice_polish": true,
+  "places": {
+    "bakery": {
+      "no": 1,
+      "name": "Brooks Bakery",
+      "short": "BAKERY",
+      "kind": "bakery",
+      "color": "#C2410C"
+    },
+    "busstop": {
+      "no": 3,
+      "name": "Maple Street Bus Stop",
+      "short": "BUS 4",
+      "kind": "busstop",
+      "color": "#1D4ED8"
+    },
+    "pharmacy": {
+      "no": 5,
+      "name": "Maple Pharmacy",
+      "short": "PHARMACY",
+      "kind": "pharmacy",
+      "color": "#0F766E"
+    },
+    "millers": {
+      "no": 8,
+      "name": "The Miller House",
+      "kind": "home",
+      "color": "#CA8A04"
+    },
+    "cornershop": {
+      "no": 9,
+      "name": "Corner Shop & Post",
+      "short": "SHOP",
+      "kind": "shop",
+      "color": "#1E40AF"
+    },
+    "junes": {
+      "no": 12,
+      "name": "June's House",
+      "kind": "home",
+      "color": "#7E22CE"
+    },
+    "street": {
+      "name": "Maple Street",
+      "kind": "street",
+      "color": "#C2410C"
+    }
+  },
+  "character_style": "chibi"
+}

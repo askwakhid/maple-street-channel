@@ -1,0 +1,57 @@
+{
+  "font": "Space Grotesk",
+  "sticker": true,
+  "shadow": "#141414",
+  "skin": "#F6C9A8",
+  "capBg": "#FFFFFF",
+  "capInk": "#141414",
+  "capDim": "#9A968E",
+  "sheetInk": "#141414",
+  "gridLine": "#3A86FF22",
+  "bg": "ink",
+  "sky": [
+    "#F6F1E7",
+    "#F6F1E7"
+  ],
+  "ground": [
+    "#F6F1E7",
+    "#F6F1E7",
+    "#F6F1E7"
+  ],
+  "paper": "#FFFFFF",
+  "ink": "#141414",
+  "a": "#FF4D4D",
+  "b": "#3B82F6",
+  "c": "#FFE45C",
+  "d": "#19C37D",
+  "e": "#8B5CF6",
+  "tape": "#FFE45C",
+  "capHi": "#19C37D",
+  "sheet": "#19C37D",
+  "sheetFold": "#0E8F57",
+  "transition": "ink",
+  "music": "lofi",
+  "tints": {
+    "alert": [
+      "#FFE8E3",
+      "#FFE8E3"
+    ],
+    "calm": [
+      "#EAF2FB",
+      "#EAF2FB"
+    ],
+    "happy": [
+      "#E6F7EE",
+      "#E6F7EE"
+    ],
+    "sad": [
+      "#ECEBE8",
+      "#ECEBE8"
+    ]
+  },
+  "name": "ink",
+  "style": "ink",
+  "hand": "Caveat",
+  "capWeight": 700,
+  "grain": 0.1
+}

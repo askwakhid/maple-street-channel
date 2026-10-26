@@ -1,0 +1,53 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#3A2A1A",
+  "skin": "#F6C9A8",
+  "capBg": "#FFF8EC",
+  "capInk": "#22253A",
+  "capDim": "#8A8DA0",
+  "sheetInk": "#FFFBF2",
+  "gridLine": "#5A3E2218",
+  "bg": "desk",
+  "sky": [
+    "#D9B48A",
+    "#E6C9A4"
+  ],
+  "ground": [
+    "#B98E62",
+    "#A47A50",
+    "#8F6A44"
+  ],
+  "paper": "#FFFBF2",
+  "ink": "#2E2620",
+  "a": "#E8553E",
+  "b": "#2F7FB8",
+  "c": "#F2B632",
+  "d": "#3F9E5E",
+  "e": "#8A5CC2",
+  "tape": "#9FD4E8",
+  "capHi": "#9FD4E8",
+  "sheet": "#2E2620",
+  "sheetFold": "#4A3D33",
+  "transition": "slide",
+  "music": "calm",
+  "tints": {
+    "alert": [
+      "#E3A585",
+      "#EDC2A8"
+    ],
+    "calm": [
+      "#D9C29A",
+      "#E8D6B6"
+    ],
+    "happy": [
+      "#D3C08A",
+      "#E4D6A8"
+    ],
+    "sad": [
+      "#B8A890",
+      "#CFC3AE"
+    ]
+  },
+  "name": "kraft"
+}

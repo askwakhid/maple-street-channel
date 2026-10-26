@@ -1,0 +1,53 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#000000",
+  "skin": "#F6C9A8",
+  "capBg": "#FFF6E0",
+  "capInk": "#22253A",
+  "capDim": "#8A8DA0",
+  "sheetInk": "#22253A",
+  "gridLine": "#00000010",
+  "bg": "night",
+  "sky": [
+    "#1C2550",
+    "#3A3F7A"
+  ],
+  "ground": [
+    "#2F6B5E",
+    "#23584D",
+    "#1A4840"
+  ],
+  "paper": "#FFF6E0",
+  "ink": "#1C2041",
+  "a": "#FF7A8A",
+  "b": "#5CC8FF",
+  "c": "#FFD166",
+  "d": "#5ED6A0",
+  "e": "#B98CFF",
+  "tape": "#B98CFF",
+  "capHi": "#FFD166",
+  "sheet": "#B98CFF",
+  "sheetFold": "#9A6CF0",
+  "transition": "fold",
+  "music": "curious",
+  "tints": {
+    "alert": [
+      "#5A1E3A",
+      "#8A3A55"
+    ],
+    "calm": [
+      "#16304F",
+      "#2C5A80"
+    ],
+    "happy": [
+      "#2A2F6E",
+      "#4A4FA0"
+    ],
+    "sad": [
+      "#232838",
+      "#3B4256"
+    ]
+  },
+  "name": "midnight"
+}

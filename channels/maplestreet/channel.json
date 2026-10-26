@@ -1,0 +1,18 @@
+{
+  "_help": "Identity of this channel. Used to fill the {{placeholders}} in templates/ when building the two skills. See channels/README.md.",
+  "id": "maplestreet",
+  "name": "Maple Street English",
+  "handle": "@maplestreetenglish",
+  "language": "en",
+  "niche": "everyday English conversation for A2-B1 learners worldwide",
+  "tagline": "everyday English, one street at a time",
+  "audience": "adult and teen (16+) English learners at A2-B1 level worldwide, mainly Asia, Latin America and the Middle East",
+  "style": "cute sticker-style chibi sitcom on a pastel street: a cast of neighbors, each episode at a different house or shop",
+  "theme": "maple",
+  "character": "Mia",
+  "default_format": "long",
+  "studio_skill": "maplestreet-studio",
+  "script_skill": "maplestreet-scriptwriter",
+  "studio_description": "Produces ready-to-upload Maple Street English videos (16:9 episodes or 9:16 Shorts) from a finished script in videos/<topic>/script.txt: multi-voice dialogue, chibi-style dialogue scenes, repeat-after-me practice on Maple Street, synced captions, lesson cards, music, thumbnail, title, description and pinned comment. Use when the user asks to make, render, fix or publish a Maple Street video.",
+  "script_description": "Writes Maple Street English scripts (A2-B1 English-learning sitcom episodes and Shorts set on Maple Street) plus a publish brief, following the channel bible's cast, places and episode format. Use when the user asks for a Maple Street script, episode ideas, target phrases, titles, or to rewrite a script. Does not render video."
+}

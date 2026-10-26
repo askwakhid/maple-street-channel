@@ -1,0 +1,53 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#3A2A1A",
+  "skin": "#F6C9A8",
+  "capBg": "#FFF8EC",
+  "capInk": "#22253A",
+  "capDim": "#8A8DA0",
+  "sheetInk": "#22253A",
+  "gridLine": "#00000010",
+  "bg": "meadow",
+  "sky": [
+    "#7FCDF2",
+    "#D3F0FC"
+  ],
+  "ground": [
+    "#8ED19A",
+    "#62B87C",
+    "#4C9E66"
+  ],
+  "paper": "#FFF8EC",
+  "ink": "#22253A",
+  "a": "#FF6B57",
+  "b": "#3B8FD9",
+  "c": "#FFC23D",
+  "d": "#45B36B",
+  "e": "#9D6BE0",
+  "tape": "#FFD65C",
+  "capHi": "#FFD65C",
+  "sheet": "#FFC23D",
+  "sheetFold": "#F2A922",
+  "transition": "fold",
+  "music": "playful",
+  "tints": {
+    "alert": [
+      "#FF9C7A",
+      "#FFD9C7"
+    ],
+    "calm": [
+      "#A9DDF5",
+      "#EAF7FD"
+    ],
+    "happy": [
+      "#8FE0C9",
+      "#E2F8F1"
+    ],
+    "sad": [
+      "#9AA9C2",
+      "#D9E0EA"
+    ]
+  },
+  "name": "meadow"
+}

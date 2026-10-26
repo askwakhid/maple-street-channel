@@ -1,0 +1,366 @@
+{
+  "format": "long",
+  "topic": "first-breakfast",
+  "episode": 2,
+  "level": "A2",
+  "place": "bakery",
+  "cast": [
+    "MIA",
+    "WALTER",
+    "GRACE",
+    "NARRATOR"
+  ],
+  "target_phrases": [
+    "Something smells amazing",
+    "What can I get you?",
+    "Can I get a coffee, please?",
+    "Anything else?",
+    "For here or to go?",
+    "That'll be six dollars",
+    "Here you go"
+  ],
+  "grammar_corner": "can / could for polite requests",
+  "titles": [
+    "Ordering at a Bakery in English | Real Conversation (A2)",
+    "Don't Say 'Give me a coffee' — Say This Instead (A2)",
+    "How to Order Breakfast in English | Maple Street Ep. 2"
+  ],
+  "description": "Mia orders her first breakfast at Brooks Bakery. Listen to the conversation, learn 7 phrases people really use when they order, then hear the story again and practice.\n\nPrices on Maple Street: coffee $2.50 + cinnamon roll $3.50 = $6.00.\n\nPhrases in this episode: Something smells amazing · What can I get you? · Can I get a coffee, please? · Anything else? · For here or to go? · That'll be six dollars · Here you go.",
+  "hashtags": [],
+  "tags": [
+    "english conversation",
+    "ordering food in english",
+    "learn english a2",
+    "english for beginners",
+    "maple street english"
+  ],
+  "pinned_comment": "What would you order at Brooks Bakery? Write it as a full sentence: 'Can I get ..., please?' 👇",
+  "thumbnails": [
+    {
+      "text": "Order Like a Local",
+      "highlight": "Local",
+      "scene_hint": "dialogue"
+    },
+    {
+      "text": "Don't Say \"Give Me\"",
+      "highlight": "Don't",
+      "scene_hint": "versus"
+    }
+  ],
+  "chapters": [
+    {
+      "line": 4,
+      "title": "The story"
+    },
+    {
+      "line": 20,
+      "title": "7 key phrases"
+    },
+    {
+      "line": 46,
+      "title": "Grammar corner"
+    },
+    {
+      "line": 49,
+      "title": "The story again (slower)"
+    },
+    {
+      "line": 65,
+      "title": "Your turn"
+    },
+    {
+      "line": 75,
+      "title": "Quick quiz"
+    }
+  ],
+  "scene_plan": [
+    {
+      "lines": [
+        1,
+        2
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "GRACE"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        3
+      ],
+      "type": "location",
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery",
+      "chapter": "The story"
+    },
+    {
+      "lines": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        20,
+        21
+      ],
+      "type": "title",
+      "chapter": "7 key phrases"
+    },
+    {
+      "lines": [
+        22,
+        23,
+        24
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        25,
+        26,
+        27
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        28,
+        29,
+        30
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        31,
+        32
+      ],
+      "type": "versus"
+    },
+    {
+      "lines": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        37,
+        38,
+        39
+      ],
+      "type": "versus"
+    },
+    {
+      "lines": [
+        40,
+        41,
+        42
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        43,
+        44,
+        45
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        46,
+        47,
+        48
+      ],
+      "type": "list",
+      "chapter": "Grammar corner"
+    },
+    {
+      "lines": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery",
+      "chapter": "The story again (slower)"
+    },
+    {
+      "lines": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "type": "dialogue",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "type": "repeat",
+      "cast": [
+        "MIA"
+      ],
+      "place": "bakery",
+      "chapter": "Your turn"
+    },
+    {
+      "lines": [
+        72,
+        73,
+        74
+      ],
+      "type": "repeat",
+      "cast": [
+        "MIA",
+        "WALTER"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        75,
+        76
+      ],
+      "type": "list",
+      "chapter": "Quick quiz"
+    },
+    {
+      "lines": [
+        77,
+        78
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        79,
+        80
+      ],
+      "type": "bigtext"
+    },
+    {
+      "lines": [
+        81
+      ],
+      "type": "versus"
+    },
+    {
+      "lines": [
+        82
+      ],
+      "type": "dialogue",
+      "cast": [
+        "GRACE"
+      ],
+      "place": "bakery"
+    },
+    {
+      "lines": [
+        83
+      ],
+      "type": "outro"
+    }
+  ]
+}

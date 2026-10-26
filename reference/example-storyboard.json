@@ -1,0 +1,391 @@
+{
+ "format": "long",
+ "theme": "maple",
+ "scenes": [
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "GRACE"
+   ],
+   "place": "bakery",
+   "moods": {
+    "MIA": "worried",
+    "GRACE": "laugh"
+   }
+  },
+  {
+   "lines": [
+    3
+   ],
+   "type": "location",
+   "place": "bakery",
+   "at": "Brooks",
+   "title": "First breakfast",
+   "subtitle": "Episode 2",
+   "badge": "A2"
+  },
+  {
+   "lines": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery",
+   "chapter": "The story"
+  },
+  {
+   "lines": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery"
+  },
+  {
+   "lines": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery",
+   "moods": {
+    "WALTER": "smile"
+   }
+  },
+  {
+   "lines": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery",
+   "moods": {
+    "MIA": "excited"
+   }
+  },
+  {
+   "lines": [
+    20,
+    21
+   ],
+   "type": "title",
+   "title": "7 key phrases",
+   "subtitle": "At the bakery",
+   "chapter": "7 key phrases"
+  },
+  {
+   "lines": [
+    22,
+    23,
+    24
+   ],
+   "type": "bigtext",
+   "text": "Something smells amazing!",
+   "highlight": "amazing"
+  },
+  {
+   "lines": [
+    25,
+    26,
+    27
+   ],
+   "type": "bigtext",
+   "text": "What can I get you?",
+   "highlight": "get"
+  },
+  {
+   "lines": [
+    28,
+    29,
+    30
+   ],
+   "type": "bigtext",
+   "text": "Can I get a coffee, please?",
+   "highlight": "get"
+  },
+  {
+   "lines": [
+    31,
+    32
+   ],
+   "type": "versus",
+   "left": {
+    "icon": "cross",
+    "label": "Give me a coffee",
+    "at": "Don't"
+   },
+   "right": {
+    "icon": "check",
+    "label": "Can I get a coffee, please?",
+    "at": "Say"
+   },
+   "winner": "right"
+  },
+  {
+   "lines": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "type": "bigtext",
+   "text": "Anything else?",
+   "highlight": "else"
+  },
+  {
+   "lines": [
+    37,
+    38,
+    39
+   ],
+   "type": "versus",
+   "left": {
+    "icon": "house",
+    "label": "For here",
+    "at": "here"
+   },
+   "right": {
+    "icon": "cart",
+    "label": "To go",
+    "at": "go"
+   }
+  },
+  {
+   "lines": [
+    40,
+    41,
+    42
+   ],
+   "type": "bigtext",
+   "text": "That'll be six dollars.",
+   "highlight": "That'll"
+  },
+  {
+   "lines": [
+    43,
+    44,
+    45
+   ],
+   "type": "bigtext",
+   "text": "Here you go.",
+   "highlight": "go"
+  },
+  {
+   "lines": [
+    46,
+    47,
+    48
+   ],
+   "type": "list",
+   "title": "Polite requests",
+   "items": [
+    {
+     "icon": "chat",
+     "text": "Can I get...?",
+     "at": "Can"
+    },
+    {
+     "icon": "chat",
+     "text": "Could I have...?",
+     "at": "have"
+    },
+    {
+     "icon": "heart",
+     "text": "+ please",
+     "at": "please"
+    }
+   ],
+   "chapter": "Grammar corner"
+  },
+  {
+   "lines": [
+    49,
+    50,
+    51,
+    52
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery",
+   "chapter": "The story again (slower)"
+  },
+  {
+   "lines": [
+    53,
+    54,
+    55,
+    56
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery"
+  },
+  {
+   "lines": [
+    57,
+    58,
+    59,
+    60
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery"
+  },
+  {
+   "lines": [
+    61,
+    62,
+    63,
+    64
+   ],
+   "type": "dialogue",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery"
+  },
+  {
+   "lines": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "type": "repeat",
+   "cast": [
+    "MIA"
+   ],
+   "place": "bakery",
+   "chapter": "Your turn"
+  },
+  {
+   "lines": [
+    72,
+    73,
+    74
+   ],
+   "type": "repeat",
+   "cast": [
+    "MIA",
+    "WALTER"
+   ],
+   "place": "bakery"
+  },
+  {
+   "lines": [
+    75,
+    76
+   ],
+   "type": "list",
+   "title": "Question 1",
+   "items": [
+    {
+     "icon": "cart",
+     "text": "To go"
+    },
+    {
+     "icon": "check",
+     "text": "For here, please.",
+     "at": "here"
+    }
+   ],
+   "chapter": "Quick quiz"
+  },
+  {
+   "lines": [
+    77,
+    78
+   ],
+   "type": "bigtext",
+   "text": "Could I have a coffee, please?",
+   "highlight": "have"
+  },
+  {
+   "lines": [
+    79,
+    80
+   ],
+   "type": "bigtext",
+   "text": "No, that's all, thanks.",
+   "highlight": "all"
+  },
+  {
+   "lines": [
+    81
+   ],
+   "type": "versus",
+   "left": {
+    "icon": "cross",
+    "label": "a bread",
+    "at": "bread"
+   },
+   "right": {
+    "icon": "check",
+    "label": "a loaf of bread",
+    "at": "loaf"
+   },
+   "winner": "right"
+  },
+  {
+   "lines": [
+    82
+   ],
+   "type": "dialogue",
+   "cast": [
+    "GRACE"
+   ],
+   "place": "bakery",
+   "moods": {
+    "GRACE": "excited"
+   }
+  },
+  {
+   "lines": [
+    83
+   ],
+   "type": "outro"
+  }
+ ]
+}

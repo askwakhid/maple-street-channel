@@ -1,0 +1,98 @@
+{
+  "_help": "Channel look, voice and YouTube settings. Keys explained in brand/README.md (PaperFold source). Fill every CHANGE-ME.",
+  "channel": "CHANGE-ME",
+  "handle": "CHANGE-ME",
+  "initials": "CHANGE-ME",
+  "color": "#3B82F6",
+  "color2": "#141414",
+  "theme": "ink",
+  "seed": "CHANGE-ME (any number, e.g. 5821)",
+  "language": "en",
+  "mascot": {
+    "name": "CHANGE-ME",
+    "hoodie": "#3B82F6",
+    "body": "#FFFFFF",
+    "fold": "#E9E2D3",
+    "limb": "#22253A",
+    "cheek": "#FF9AA2",
+    "scarf": "#3B82F6"
+  },
+  "watermark": {
+    "enabled": true,
+    "move": "scene",
+    "hop_every": 6,
+    "position": "top-right",
+    "opacity": 0.92,
+    "size": 96,
+    "show_handle": true,
+    "subtitle": "on YouTube",
+    "ghost": {
+      "enabled": true,
+      "opacity": 0.08
+    },
+    "caption_tag": true
+  },
+  "outro": {
+    "cta": "CHANGE-ME (e.g. Follow for a new story every week)",
+    "button": "SUBSCRIBE",
+    "subscribed": "SUBSCRIBED"
+  },
+  "music": "auto",
+  "progress_bar": true,
+  "tagline": "CHANGE-ME",
+  "logo": {
+    "mark": "initials",
+    "ink": "#141414",
+    "accent": "#3B82F6",
+    "accent_dark": "#1D4ED8",
+    "highlight": "#FFE45C",
+    "background": "#F6F1E7",
+    "split": 3
+  },
+  "voice": {
+    "provider": "voicebox",
+    "profile": "CHANGE-ME (set with: voicebox.py --brand channels/<id>/brand use VOICE_ID)",
+    "engine": "kokoro",
+    "preset_voice_id": "af_heart",
+    "language": "en",
+    "gap": 0.35,
+    "seed": 7,
+    "pronounce": {}
+  },
+  "youtube": {
+    "guide_language": "en",
+    "category": "Education",
+    "language": "English",
+    "audience": "No, it's not made for kids",
+    "altered_content": "No",
+    "remix": "Allow video and audio remixing",
+    "playlist_shorts": "CHANGE-ME",
+    "playlist_long": "CHANGE-ME",
+    "hashtags": [
+      "CHANGE-ME"
+    ],
+    "tags": [
+      "CHANGE-ME"
+    ],
+    "footer": "CHANGE-ME (e.g. <name>: <tagline>. New story every week.)",
+    "disclaimer": "CHANGE-ME (fit the niche, e.g. This video is for education only, not medical advice.)",
+    "schedule_local_times": [
+      "11:00",
+      "13:00"
+    ],
+    "audience_timezone": "America/New_York",
+    "my_timezone": "Asia/Jakarta",
+    "rules": [
+      "Tonton video sekali sampai habis dengan suara sebelum upload. Pastikan semua angka diucapkan benar.",
+      "Jangan pernah membeli views, subscriber, atau like, dan jangan ikut grup sub4sub.",
+      "Jangan menghapus lalu meng-upload ulang video karena views awal sedikit. Shorts sering naik setelah 1-3 hari.",
+      "Fakta dan angka harus sama dengan naskah dan deskripsi. Klaim soal uang atau kesehatan butuh sumber.",
+      "Video bersponsor wajib dicentang 'paid promotion' di YouTube.",
+      "Balas komentar-komentar pertama dalam satu jam pertama."
+    ]
+  },
+  "render": {
+    "resolution": "1080p"
+  },
+  "voice_polish": true
+}

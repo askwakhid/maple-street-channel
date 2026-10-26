@@ -1,0 +1,7 @@
+projects/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+*.installed-*.json
+videos/

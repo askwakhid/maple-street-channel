@@ -1,0 +1,18 @@
+{
+  "_help": "Fill every CHANGE-ME, then build: python3 tools/package.py channel <id>. Guide: channels/README.md section 3.",
+  "id": "CHANGE-ME (same as the folder name, e.g. bodyfacts)",
+  "name": "CHANGE-ME (channel name as viewers see it)",
+  "handle": "CHANGE-ME (@handle)",
+  "language": "en",
+  "niche": "CHANGE-ME (e.g. the science of the human body, explained simply)",
+  "tagline": "CHANGE-ME (short line for the banner)",
+  "audience": "CHANGE-ME (who watches: age, countries, situation)",
+  "style": "CHANGE-ME (e.g. paper-craft explainers with the mascot Mia)",
+  "theme": "ink",
+  "character": "CHANGE-ME (name of the main character)",
+  "default_format": "shorts",
+  "studio_skill": "CHANGE-ME (<id>-studio)",
+  "script_skill": "CHANGE-ME (<id>-scriptwriter)",
+  "studio_description": "CHANGE-ME (one sentence: Produces ready-to-upload <name> videos ... Use when the user asks to make, render, fix or publish a <name> video.)",
+  "script_description": "CHANGE-ME (one sentence: Writes <name> scripts (<niche>) plus a publish brief ... Use when the user asks for a <name> script, ideas, hooks or titles. Does not render video.)"
+}

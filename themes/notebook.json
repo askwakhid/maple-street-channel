@@ -1,0 +1,53 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#3A2A1A",
+  "skin": "#F6C9A8",
+  "capBg": "#FFF8EC",
+  "capInk": "#22253A",
+  "capDim": "#8A8DA0",
+  "sheetInk": "#FFFFFF",
+  "gridLine": "#3A86FF22",
+  "bg": "notebook",
+  "sky": [
+    "#F7F9FC",
+    "#EEF2F8"
+  ],
+  "ground": [
+    "#DCE6F2",
+    "#C9D7EA",
+    "#B5C8E2"
+  ],
+  "paper": "#FFFFFF",
+  "ink": "#1E2A44",
+  "a": "#F25C54",
+  "b": "#3A86FF",
+  "c": "#FFBE0B",
+  "d": "#2EC4B6",
+  "e": "#8338EC",
+  "tape": "#FFBE0B",
+  "capHi": "#FFE38A",
+  "sheet": "#3A86FF",
+  "sheetFold": "#2F6FD6",
+  "transition": "torn",
+  "music": "playful",
+  "tints": {
+    "alert": [
+      "#FFF0EE",
+      "#FFE2DE"
+    ],
+    "calm": [
+      "#F2F7FF",
+      "#E6F0FF"
+    ],
+    "happy": [
+      "#EFFFFB",
+      "#DDF8F3"
+    ],
+    "sad": [
+      "#F2F2F5",
+      "#E4E4EA"
+    ]
+  },
+  "name": "notebook"
+}

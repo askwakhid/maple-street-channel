@@ -1,0 +1,58 @@
+{
+  "font": "Fredoka",
+  "sticker": true,
+  "shadow": "#3A2E2B",
+  "skin": "#F6C9A8",
+  "capBg": "#FFFFFF",
+  "capInk": "#3A2E2B",
+  "capDim": "#9A968E",
+  "sheetInk": "#3A2E2B",
+  "gridLine": "#3A86FF22",
+  "bg": "pastel",
+  "sky": [
+    "#FFF6EC",
+    "#FFE8D6"
+  ],
+  "ground": [
+    "#EBCBA6",
+    "#E2BB91",
+    "#D9AE80"
+  ],
+  "paper": "#FFFFFF",
+  "ink": "#3A2E2B",
+  "a": "#FF4D4D",
+  "b": "#3B82F6",
+  "c": "#FFE45C",
+  "d": "#19C37D",
+  "e": "#8B5CF6",
+  "tape": "#FFE45C",
+  "capHi": "#FFD43B",
+  "sheet": "#19C37D",
+  "sheetFold": "#0E8F57",
+  "transition": "ink",
+  "music": "lofi",
+  "tints": {
+    "alert": [
+      "#FFEDEA",
+      "#FFDCD6"
+    ],
+    "calm": [
+      "#EEF6FF",
+      "#DDEBFB"
+    ],
+    "happy": [
+      "#F0FAF0",
+      "#DDF3E2"
+    ],
+    "sad": [
+      "#F1F0F5",
+      "#E2E1EA"
+    ]
+  },
+  "name": "maple",
+  "style": "ink",
+  "hand": "Caveat",
+  "capWeight": 700,
+  "grain": 0.04,
+  "floor": "#EDD3B4"
+}

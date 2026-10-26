@@ -172,6 +172,10 @@ def compare(sentences, transcript, names=(), pronounce=None):
     """Compare script sentences with the transcript. Returns a list of problems per sentence.
 
     names: words that must be heard clearly (e.g. the channel name); missing ones are reported even alone."""
+    # whisper-cli splits numbers into tokens ("$ 1 , 440"): glue them back so they read like the script
+    transcript = re.sub(r"\$\s+(?=\d)", "$", transcript or "")
+    transcript = re.sub(r"(?<=\d)\s*,\s*(?=\d{3}\b)", ",", transcript)
+    transcript = re.sub(r"(?<=\w)\s+(?=['’](?:m|s|re|ve|ll|d|t)\b)", "", transcript)  # "I 'm" -> "I'm"
     heard = words(transcript)
     for word, sound in (pronounce or {}).items():  # compare with what the voice was asked to say
         sentences = [re.sub(rf"\b{re.escape(word)}\b", sound, s, flags=re.I) for s in sentences]

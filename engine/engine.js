@@ -299,11 +299,11 @@
     let body = E.stk(E.rect(-L.capW / 2, -h / 2, L.capW, h, 20, T.capBg)) + (T.style === 'ink' ? '' : E.tape(-L.capW / 2 + 40, -h / 2 + 4, 90, -28) + E.tape(L.capW / 2 - 40, -h / 2 + 4, 90, 28));
     if (E.wmCfg().caption_tag !== false && E.brand.handle && E.wmCfg().enabled !== false)
       body += `<text x="${L.capW / 2 - 22}" y="${h / 2 - 16}" text-anchor="end" font-family="Space Grotesk, ${T.font}, sans-serif" font-size="20" font-weight="700" fill="${T.capInk}" opacity=".45">${E.esc(E.brand.handle)}</text>`;
-    // dialogue: speaker name tag on the card's top-left edge, in the character's colour
+    // dialogue: speaker name tag on the card's top-right edge (the watermark badge never sits there)
     if (ch.speaker) {
-      const ts = size * 0.62, tw = E.measure(ch.speaker, ts, 700) + ts * 1.2;
-      body += E.rect(-L.capW / 2 + 24, -h / 2 - ts * 0.75, tw, ts * 1.5, ts * 0.75, ch.color || T.ink) +
-        E.text(ch.speaker, -L.capW / 2 + 24 + tw / 2, -h / 2 + 2, ts, '#FFFFFF', { weight: 700 });
+      const ts = size * 0.62, tw = E.measure(ch.speaker, ts, 700) + ts * 1.2, tx = L.capW / 2 - 24 - tw;
+      body += E.rect(tx, -h / 2 - ts * 0.75, tw, ts * 1.5, ts * 0.75, ch.color || T.ink) +
+        E.text(ch.speaker, tx + tw / 2, -h / 2 + 2, ts, '#FFFFFF', { weight: 700 });
     }
     const y0 = -((lines.length - 1) * lh) / 2;
     lines.forEach((ln, li) => {
@@ -365,6 +365,8 @@
     let def = Object.keys(table);
     // ink layouts use the side zones in 16:9, so keep the badge in the corners there
     if (E.fmt === 'long' && E.theme.style === 'ink') def = def.filter((k) => !k.startsWith('mid'));
+    // multi-character channels: keep the badge away from the speaker tag on the caption's top-right
+    if ((E.brand.voice || {}).cast) def = def.filter((k) => k !== 'low-right');
     let names = (W.spots || def).filter((k) => table[k]);
     if (W.move === 'static') names = [W.position && table[W.position] ? W.position : names[0]];
     let slot = 0, fade = 1;
